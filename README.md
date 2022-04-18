@@ -1,13 +1,8 @@
 # Aplicación lista de tareas
 
-Proyecto de práctica, de lista de tareas con inicio de sesión y registro de usuarios.
+Proyecto de práctica, de CRUD en react y Node.js con base de datos MySQL.
 
-![Perfil principal.](https://github.com/Francooo2/meOrganizoApp/blob/main/src/public/img/profile.png?raw=true "Perfil principal")
-
-
-### Demo 📋
-
-[Pincha aquí para ver demo](https://www.meorganizo.digital/)
+![Perfil principal.](https://github.com/Francooo2/reactCRUD/blob/main/frontreact/public/principalView.png?raw=true "Perfil principal")
 
 ### Pre-requisitos 📋
 
@@ -22,10 +17,10 @@ Node.js, git, MySql, XAMPP
 Clona el proyecto.
 
 ```
-git clone https://github.com/Francooo2/meOrganizoApp.git
+git clone https://github.com/Francooo2/reactCRUD.git
 ```
 
-Abre tu editor de preferencia, y por consola ejecuta lo siguiente para instalar dependencias del proyecto.
+Abre tu editor de preferencia, y por consola ejecuta lo siguiente para instalar dependencias del proyecto, tanto en la carpeta del Frontend como en la carperta del Backend.
 
 ```
 npm i
@@ -33,38 +28,33 @@ npm i
 
 Ejecuta el script db.sql, que se encuantra en la carpeta database, en tu motor de base de datos de preferencia.
 
-Luego crea un archivo .env en el proyecto con la siguiente estructura.
-
-```
-DATABASE           = ...
-DATABASE_HOST      = ...
-DATABASE_USER      = ...
-DATABASE_PASSWORD  = ...
-JWT_SECRET         = ...
-JWT_EXPIRES_IN     = ...
-JWT_COOKIE_EXPIRES = ...
-```
-
 ## Ejecutando el proyecto ⚙️
 
-Para ejecutar el proyecto, luego de completar los pasos anteriores, ejecuta el siguiente comando por conasola, mientrasm tienes XAMPP corriendo.
+Para ejecutar el proyecto, luego de completar los pasos anteriores, ejecuta el siguiente comando por conasola tanto en la carpeta del FrontEnd como en la del Backend, mientras tienes XAMPP corriendo.
 
 ```
 npm run start
 ```
-Una vez ejecutado npm run start, se debería ver la siguiente salida por consola.
+Una vez ejecutado npm run start, se debería ver la siguiente salida por consola en el Frontend y Backend respectivamente.
 
 ```
-Servidor corriendo en el puerto 5000
-DB is conected
+You can now view frontreact in the browser.      
+Compiled successfully!
+```
+
+```
+Conexión exitosa a la base de datos.
+Servidor corriendo en el puerto 8000
 ```
 
 ## Construido con 🛠️
 
 * [Node js](https://nodejs.org/es/) - Entorno de ejecución javascript para el backend.
 * [Express](https://expressjs.com/es/) - infraestructura de aplicaciones web Node.js.
-* [JWT](https://jwt.io/) - Método de autenticación.
-* [hbs](https://handlebarsjs.com/) - Motor de plantillas utilizado.
+* [React](https://es.reactjs.org/) - Libreria de Frontend.
+* [Bootstrap](https://getbootstrap.com/) - Framework de css.
+* [MySQL](https://www.mysql.com/) - Base de datos utilizada.
+* [Sequalize](https://sequelize.org/) - ORM utilizado.
 
 ---
 ⌨️ Feliz código, [Franco](https://github.com/Francooo2) 😊
