@@ -1,4 +1,4 @@
-# Aplicación lista de tareas
+# Aplicación CRUD
 
 Proyecto de práctica, de CRUD en react y Node.js con base de datos MySQL.
 
